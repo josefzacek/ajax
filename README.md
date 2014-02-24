@@ -1,0 +1,4 @@
+ajax
+====
+
+example of ajax
