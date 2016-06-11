@@ -8,13 +8,24 @@ ul.nav.navbar-nav.navbar-right li a {
   color: #fff;
 }
 
+/* jumbotron */
+.jumbotron { 
+  background-color: #f4511e;
+  color: #ffffff;
+}
+
+
 /* mobile nav */
 .navbar-default .navbar-toggle {
-    border-color: #fff;
+  border-color: #fff;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+  background-color: #fff;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #FF5722;
+  background-color: #FF5722;
 }
+
+
+
+
