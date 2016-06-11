@@ -1,0 +1,20 @@
+/* nav background */
+nav.navbar.navbar-default.navbar-static-top {
+  background-color: #f4511e;
+}
+
+/* nav links */
+ul.nav.navbar-nav.navbar-right li a {
+  color: #fff;
+}
+
+/* mobile nav */
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #FF5722;
+}
