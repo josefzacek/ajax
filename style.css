@@ -8,13 +8,6 @@ ul.nav.navbar-nav.navbar-right li a {
   color: #fff;
 }
 
-/* jumbotron */
-.jumbotron { 
-  background-color: #f4511e;
-  color: #ffffff;
-}
-
-
 /* mobile nav */
 .navbar-default .navbar-toggle {
   border-color: #fff;
@@ -26,6 +19,8 @@ ul.nav.navbar-nav.navbar-right li a {
   background-color: #FF5722;
 }
 
-
-
-
+/* jumbotron */
+.jumbotron { 
+  background-color: #f4511e;
+  color: #ffffff;
+}
