@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" type="text/css" href="style.css<?php echo '?' . filemtime('style.css'); ?>">
 
-
+    <script src="https://use.fontawesome.com/ab39f92078.js"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -28,7 +28,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="#" class="pull-left"><img src="/images/logo.png"></a>
+          <a href="index" class="pull-left"><img src="/images/logo.png"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
