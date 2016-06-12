@@ -3,6 +3,7 @@ $(document).ready(function(){
 	$('.wrapper').load('pages/index.php');
 
 	// linking pages
+  $('nav .navbar-header a').on('click', navigate);
 	$('nav ul li a').on('click', navigate);
 
 	function navigate(e) {
