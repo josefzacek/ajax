@@ -27,14 +27,30 @@ ul.nav.navbar-nav.navbar-right li a {
 
 /* buttons */
 .btn-primary {
-    color: #f4511e;
-    background-color: #fff;
-    border-color: #f4511e;
+  color: #f4511e;
+  background-color: #fff;
+  border-color: #f4511e;
 }
 
 .btn-primary:hover, .btn-primary:active {
-    color: #fff;
-    background-color: #f4511e;
-    border-color: #fff;
+  color: #fff;
+  background-color: #f4511e;
+  border-color: #fff;
 }
 
+#google-map-canvas {
+  width: 100%;
+  height: 200px;
+}
+
+@media only screen and (min-width : 768px) {
+  #google-map-canvas {
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width : 992px) {
+  #google-map-canvas {
+    height: 300px;
+  }
+}
