@@ -27,14 +27,15 @@ ul.nav.navbar-nav.navbar-right li a {
 
 /* buttons */
 .btn-primary {
-    color: #f4511e;
-    background-color: #fff;
-    border-color: #f4511e;
+  color: #f4511e;
+  background-color: #fff;
+  border-color: #f4511e;
 }
 
 .btn-primary:hover, .btn-primary:active {
-    color: #fff;
-    background-color: #f4511e;
-    border-color: #fff;
+  color: #fff;
+  background-color: #f4511e;
+  border-color: #fff;
+}
 }
 
