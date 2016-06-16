@@ -9,6 +9,7 @@ Very simple example of ajax
 - Bootstrap
 - Composer
 - Mailgun
+- Google Maps API
  
 Developed using Vagrant, php5-fpm and NGINX
 
