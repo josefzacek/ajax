@@ -7,6 +7,8 @@ Very simple example of ajax
 - PHP
 - jQuery
 - Bootstrap
+- Composer
+- Mailgun
  
 Developed using Vagrant, php5-fpm and NGINX
 
