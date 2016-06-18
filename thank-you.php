@@ -6,6 +6,7 @@
   // Process POST requests only
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
+    // Mailgun setup
     $client = new \Http\Adapter\Guzzle6\Client();
     $mailgun = new \Mailgun\Mailgun('MAILGUN_API_KEY_HERE', $client);
     $domain = "MAILGUN_DOMAIN_NAME_HERE";
