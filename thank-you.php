@@ -10,6 +10,14 @@
     $mailgun = new \Mailgun\Mailgun('MAILGUN_API_KEY_HERE', $client);
     $domain = "MAILGUN_DOMAIN_NAME_HERE";
 
+    // Get the form fields and remove whitespace
+    $firstname = strip_tags(trim($_POST["firstname"]));
+    $lastname = strip_tags(trim($_POST["lastname"]));
+    $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+    $phone = strip_tags(trim($_POST["phone"]));
+    $message = trim($_POST["message"]);
+
+
     //Customise the email
     $mailgun->sendMessage($domain, array(
     'from'=>'contact-form@ajax.josefzacek.cz',
