@@ -81,6 +81,11 @@
           </body>
         </html>';
     } 
+    else {
+      echo "Oops! Something went wrong and we couldn't send your message.";
+      exit(); 
+    }
+
   }
   else {
     // Redirect to 404 page
