@@ -18,6 +18,9 @@
     $phone = strip_tags(trim($_POST["phone"]));
     $message = trim($_POST["message"]);
 
+    // Set the sender email address
+    $sender = "contact-form@ajax.josefzacek.cz";
+
 
     //Customise the email
     $mailgun->sendMessage($domain, array(
