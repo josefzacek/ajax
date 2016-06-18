@@ -27,6 +27,12 @@
     // Set the email subject
     $subject = "Ajax website contact form";
 
+    // Build the email content
+    $email_content = "Firstname: " . $firstname . "\n";
+    $email_content .= "Lastname: " . $lastname . "\n";
+    $email_content .= "Email: " . $email . "\n";
+    $email_content .= "Phone: " . $phone . "\n";
+    $email_content .= "Message: " ."\n".$message;                    
 
     //Customise the email
     $mailgun->sendMessage($domain, array(
