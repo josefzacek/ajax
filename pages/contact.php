@@ -8,7 +8,7 @@
     <h1 class="text-center">Contact us</h1>
     <hr>
 
-    <form id="contact-form" method="post" action="mailer.php">
+    <form id="contact-form" method="post" action="thank-you.php">
 
       <div class="row">
         <div class="col-md-6">
