@@ -3,7 +3,7 @@
   require 'vendor/autoload.php';
   use Mailgun\Mailgun;
 
-  // Only process POST requests
+  // Process POST requests only
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $client = new \Http\Adapter\Guzzle6\Client();
