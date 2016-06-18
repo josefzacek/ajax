@@ -34,14 +34,13 @@
     $email_content .= "Phone: " . $phone . "\n";
     $email_content .= "Message: " ."\n".$message;                    
 
-    //Customise the email
-    $mailgun->sendMessage($domain, array(
-    'from'=>'contact-form@ajax.josefzacek.cz',
-    'to'=> 'info@josefzacek.com',
-    'subject' => 'Test',
-    'text' => 'Testing'
-        )
-    );
+    // Pass form details to Mailgun
+    $mailgun_result = $mailgun->sendMessage($domain, array(
+      'from'=> $sender,
+      'to'=> $recipient,
+      'subject' => $subject,
+      'text' => $email_content
+    ));
     
   }
   else {
