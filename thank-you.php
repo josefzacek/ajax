@@ -21,6 +21,9 @@
     // Set the sender email address
     $sender = "contact-form@ajax.josefzacek.cz";
 
+    // Set the recipient email address
+    $recipient = "info@josefzacek.com";
+
 
     //Customise the email
     $mailgun->sendMessage($domain, array(
