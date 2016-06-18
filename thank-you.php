@@ -44,7 +44,8 @@
     
   }
   else {
-    header("Location: 404.html"); /* Redirect browser */
+    // Redirect to 404 page
+    header("Location: 404.html");
     exit();
   }
 
