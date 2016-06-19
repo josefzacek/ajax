@@ -38,6 +38,10 @@ ul.nav.navbar-nav.navbar-right li a {
   border-color: #fff;
 }
 
+img.lazy {
+  width: 400px;
+}
+
 #google-map-canvas {
   width: 100%;
   height: 200px;
