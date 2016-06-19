@@ -11,7 +11,7 @@ $(document).ready(function(){
 		var page = $(this).attr('href');
 		$('.wrapper').load('pages/'+ page +'.php');
 	};
-
+  
 });
 
 // google map
