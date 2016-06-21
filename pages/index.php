@@ -31,8 +31,17 @@
     <img src="images/jquery-logo.png" class="img-responsive center-block" alt="jQuery">
     <hr>
     <p><strong>jQuery</strong> is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. jQuery is the most popular JavaScript library in use today, with installation on 65% of the top 10 million highest-trafficked sites on the Web. jQuery is free, open-source software licensed under the MIT License.</p>
-    <p><a class="btn btn-primary" href="https://jquery.com/" target="_blank" role="button"><i class="fa fa-external-link" aria-hidden="true"></i> View more »</a></p>
- </div>
+    <div class="text-center">
+      <div class="btn-group text-center">
+        <a href="https://github.com/jquery/jquery" target="_blank" class="btn btn-default">
+          <i class="fa fa-github fa-lg"></i> GitHub
+        </a>
+        <a class="btn btn-default" href="https://jquery.com/" target="_blank" role="button">
+          <i class="fa fa-external-link" aria-hidden="true"></i> Official site
+        </a>
+      </div>
+    </div>
+  </div>
   <div class="col-md-4">
     <img src="images/bootstrap-logo.png" class="img-responsive center-block" alt="Bootstrap">
     <hr>
