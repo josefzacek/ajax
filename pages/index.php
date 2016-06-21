@@ -16,7 +16,16 @@
     <img src="images/php-logo.png" class="img-responsive center-block" alt="PHP">
     <hr>
     <p><strong>PHP</strong> is a server-side scripting language designed for web development but also used as a general-purpose programming language. Originally created by Rasmus Lerdorf in 1994, the PHP reference implementation is now produced by The PHP Group. PHP originally stood for Personal Home Page, but it now stands for the recursive backronym PHP: Hypertext Preprocessor</p>
-    <p><a class="btn btn-primary" href="http://php.net/" target="_blank" role="button"><i class="fa fa-external-link" aria-hidden="true"></i> View more »</a></p>
+    <div class="text-center">
+      <div class="btn-group text-center">
+        <a href="https://github.com/php/php-src" target="_blank" class="btn btn-default">
+          <i class="fa fa-github fa-lg"></i> GitHub
+        </a>
+        <a class="btn btn-default" href="http://php.net/" target="_blank" role="button">
+          <i class="fa fa-external-link" aria-hidden="true"></i> Official site
+        </a>
+      </div>
+    </div>
   </div>
   <div class="col-md-4">
     <img src="images/jquery-logo.png" class="img-responsive center-block" alt="jQuery">
