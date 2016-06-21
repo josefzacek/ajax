@@ -46,7 +46,16 @@
     <img src="images/bootstrap-logo.png" class="img-responsive center-block" alt="Bootstrap">
     <hr>
     <p><strong>Bootstrap</strong> is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Unlike many web frameworks, it concerns itself with front-end development only.</p>
-    <p><a class="btn btn-primary" href="http://getbootstrap.com/" target="_blank" role="button"><i class="fa fa-external-link" aria-hidden="true"></i> View more »</a></p>
+    <div class="text-center">
+      <div class="btn-group text-center">
+        <a href="https://github.com/twbs/bootstrap" target="_blank" class="btn btn-default">
+          <i class="fa fa-github fa-lg"></i> GitHub
+        </a>
+        <a class="btn btn-default" href="http://getbootstrap.com/" target="_blank" role="button">
+          <i class="fa fa-external-link" aria-hidden="true"></i> Official site
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 
