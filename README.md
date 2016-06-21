@@ -15,4 +15,6 @@ Very simple example of ajax
  
 Developed using Vagrant, php5-fpm and NGINX
 
-Online version available at http://ajax.josefzacek.cz/
+Images for gallery page are provided from https://unsplash.com
+
+Online version available at http://ajax.josefzacek.cz
