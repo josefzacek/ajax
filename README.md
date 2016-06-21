@@ -13,7 +13,7 @@ Very simple example of ajax
 - Mailgun
 - Google Maps API
  
-Developed using Vagrant, php5-fpm and NGINX
+Developed using [Vagrant](https://www.vagrantup.com/), [php5-fpm](http://php-fpm.org/) and [NGINX](https://www.nginx.com/products/download-oss/)
 
 Images for gallery page are provided from https://unsplash.com
 
