@@ -8,8 +8,10 @@
     <link rel="shortcut icon" href="images/favicon.ico"/>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css<?php echo '?' . filemtime('css/lightbox.min.css'); ?>">
+    <link rel="stylesheet" type="text/css" href="css/style.css<?php echo '?' . filemtime('css/style.css'); ?>">
 
-    <link rel="stylesheet" type="text/css" href="style.css<?php echo '?' . filemtime('style.css'); ?>">
 
     <script src="https://use.fontawesome.com/ab39f92078.js"></script>
 
@@ -57,6 +59,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="javascript/lazyload.js"></script>
+    <script src="javascript/lightbox.min.js"></script>
     <script src="javascript/script.js"></script>
 
   </body>
