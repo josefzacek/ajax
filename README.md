@@ -7,6 +7,8 @@ Very simple example of ajax
 - PHP
 - jQuery
 - Bootstrap
+- Lazy Load Plugin for jQuery
+- Lightbox2
 - Composer
 - Mailgun
 - Google Maps API
