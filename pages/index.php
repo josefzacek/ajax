@@ -59,4 +59,32 @@
   </div>
 </div>
 
+<h1 class="text-center">Some extras</h1>
+<hr>
 
+<div class="row">
+  <div class="col-md-6">
+    <img src="images/unsplash-logo.png" class="img-responsive center-block" alt="Unsplash">
+    <hr>
+    <p><strong>Unsplash</strong> offers Free (do whatever you want) high-resolution photos. You can subscribe to get 10 new photos every 10 days.</p>
+    <div class="text-center">
+      <div class="btn-group text-center">
+        <a class="btn btn-default" href="https://unsplash.com/" target="_blank" role="button">
+          <i class="fa fa-external-link" aria-hidden="true"></i> Official site
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <img src="images/google-maps-api-logo.png" class="img-responsive center-block" alt="Google Maps API">
+    <hr>
+    <p><strong>Google Maps APIs</strong> powerful library available for Android, iOS, web browsers and via HTTP web services.</p>
+    <div class="text-center">
+      <div class="btn-group text-center">
+        <a class="btn btn-default" href="https://developers.google.com/maps/" target="_blank" role="button">
+          <i class="fa fa-external-link" aria-hidden="true"></i> Official site
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
