@@ -3,7 +3,7 @@
   <div class="col-lg-12">
       <h1 class="page-header">Gallery</h1>
       <p>Click on image to enlarge</p>
-      <p>Images outside of viewport are not loaded until user scrolls to them. Images are provided from <a href="https://unsplash.com/" target="_blank">unsplash.com</a> )</p>
+      <p>Images outside of viewport are not loaded until user scrolls to them. Images provided by <a href="https://unsplash.com/" target="_blank">unsplash.com</a> </p>
   </div>
 
   <div class="col-lg-3 col-md-4 col-xs-6">
