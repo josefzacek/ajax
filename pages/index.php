@@ -87,4 +87,25 @@
       </div>
     </div>
   </div>
+<div class="row">
+  <div class="col-md-6">
+     <img src="images/mailgun-logo.png" class="img-responsive center-block" alt="Mailgun">
+    <hr>
+    <p><strong>Mailgun</strong> is an email automation service provided by Rackspace. It offers a complete cloud-based email service for sending, receiving and tracking email sent through your websites and applications.</p>
+    <div class="text-center">
+      <a class="btn btn-default" href="https://www.mailgun.com/" target="_blank" role="button">
+        <i class="fa fa-external-link" aria-hidden="true"></i> Official site
+      </a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <img src="images/google-maps-api-logo.png" class="img-responsive center-block" alt="Google Maps API">
+    <hr>
+    <p><strong>Google Maps APIs</strong> allow for the embedding of Google Maps onto web pages of outside developers, using a simple JavaScript interface. It is designed to work on both mobile devices as well as traditional desktop browser applications.</p>
+    <div class="text-center">
+      <a class="btn btn-default" href="https://developers.google.com/maps/" target="_blank" role="button">
+        <i class="fa fa-external-link" aria-hidden="true"></i> Official site
+      </a>
+    </div>
+  </div>
 </div>
