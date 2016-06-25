@@ -63,30 +63,50 @@
 <hr>
 
 <div class="row">
-  <div class="col-md-6">
-    <img src="images/unsplash-logo.png" class="img-responsive center-block" alt="Unsplash">
+  <div class="col-md-4">
+    <h2 class="text-center">Lazy Load</h2>
+    <hr>
+    <p><strong>Lazy Load</strong> is delays loading of images in long web pages. Images outside of viewport are not loaded until user scrolls to them. Using Lazy Load on long web pages will make the page load faster.</p>
+    <div class="text-center">
+      <div class="btn-group text-center">
+        <a href="https://github.com/tuupola/jquery_lazyload" target="_blank" class="btn btn-default">
+          <i class="fa fa-github fa-lg"></i> GitHub
+        </a>
+        <a class="btn btn-default" href="http://www.appelsiini.net/projects/lazyload" target="_blank" role="button">
+          <i class="fa fa-external-link" aria-hidden="true"></i> Official site
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <h2 class="text-center">Lightbox</h2>
+    <hr>
+    <p><strong>Lightbox</strong> is small javascript library used to overlay images on top of the current page. It's a snap to setup and works on all modern browsers.</p>
+    <div class="text-center">
+      <div class="btn-group text-center">
+        <a href="https://github.com/lokesh/lightbox2/" target="_blank" class="btn btn-default">
+          <i class="fa fa-github fa-lg"></i> GitHub
+        </a>
+        <a class="btn btn-default" href="http://lokeshdhakar.com/projects/lightbox2/" target="_blank" role="button">
+          <i class="fa fa-external-link" aria-hidden="true"></i> Official site
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <h2 class="text-center">Unsplash</h2>
     <hr>
     <p><strong>Unsplash</strong> offers Free (do whatever you want) high-resolution photos. You can subscribe to get 10 new photos every 10 days.</p>
     <div class="text-center">
-      <div class="btn-group text-center">
-        <a class="btn btn-default" href="https://unsplash.com/" target="_blank" role="button">
-          <i class="fa fa-external-link" aria-hidden="true"></i> Official site
-        </a>
-      </div>
+      <a class="btn btn-default" href="https://unsplash.com/" target="_blank" role="button">
+        <i class="fa fa-external-link" aria-hidden="true"></i> Official site
+      </a>
     </div>
   </div>
-  <div class="col-md-6">
-    <img src="images/google-maps-api-logo.png" class="img-responsive center-block" alt="Google Maps API">
-    <hr>
-    <p><strong>Google Maps APIs</strong> powerful library available for Android, iOS, web browsers and via HTTP web services.</p>
-    <div class="text-center">
-      <div class="btn-group text-center">
-        <a class="btn btn-default" href="https://developers.google.com/maps/" target="_blank" role="button">
-          <i class="fa fa-external-link" aria-hidden="true"></i> Official site
-        </a>
-      </div>
-    </div>
-  </div>
+</div>
+
+<hr>
+
 <div class="row">
   <div class="col-md-6">
      <img src="images/mailgun-logo.png" class="img-responsive center-block" alt="Mailgun">
