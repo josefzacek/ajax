@@ -59,4 +59,6 @@
   </div>
 </div>
 
+<h1 class="text-center">Some extras</h1>
+<hr>
 
