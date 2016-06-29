@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="www.josefzacek.com">
     <title>Ajax</title>
     <link rel="shortcut icon" href="images/favicon.ico"/>
 
@@ -12,8 +13,17 @@
     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css<?php echo '?' . filemtime('css/lightbox.min.css'); ?>">
     <link rel="stylesheet" type="text/css" href="css/style.css<?php echo '?' . filemtime('css/style.css'); ?>">
 
-
     <script src="https://use.fontawesome.com/ab39f92078.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-79210660-1', 'auto');
+      ga('send', 'pageview');
+    </script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -32,14 +42,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="index" class="pull-left"><img src="/images/logo.png"></a>
+          <a onclick="ga('send', 'pageview', {'page': '/index','title': 'Home Page'});" href="index" class="pull-left"><img src="/images/logo.png"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index">Home</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="gallery">Gallery</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a onclick="ga('send', 'pageview', {'page': '/index','title': 'Home Page'});" href="index">Home</a></li>
+            <li><a onclick="ga('send', 'pageview', {'page': '/about','title': 'About Page'});" href="about">About</a></li>
+            <li><a onclick="ga('send', 'pageview', {'page': '/gallery','title': 'Gallery Page'});" href="gallery">Gallery</a></li>
+            <li><a onclick="ga('send', 'pageview', {'page': '/contact','title': 'Contact Page'});" href="contact">Contact</a></li>
           </ul>
         </div>
       </div>

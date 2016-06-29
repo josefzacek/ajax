@@ -5,7 +5,7 @@
 <div class="row">
 
   <div class="col-lg-8 col-lg-offset-2">
-    <h1 class="text-center">Contact us</h1>
+    <h1 class="text-center">Contact form</h1>
     <hr>
 
     <form id="contact-form" method="post" action="thank-you.php">
