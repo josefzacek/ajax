@@ -13,7 +13,6 @@
     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css<?php echo '?' . filemtime('css/lightbox.min.css'); ?>">
     <link rel="stylesheet" type="text/css" href="css/style.css<?php echo '?' . filemtime('css/style.css'); ?>">
 
-
     <script src="https://use.fontawesome.com/ab39f92078.js"></script>
 
     <!--[if lt IE 9]>
