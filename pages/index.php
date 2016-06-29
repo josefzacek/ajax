@@ -59,7 +59,7 @@
   </div>
 </div>
 
-<h1 class="text-center">Some extras</h1>
+<h1 class="text-center">Other bits &amp; pieces</h1>
 <hr>
 
 <div class="row">
