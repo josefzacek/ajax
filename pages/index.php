@@ -8,7 +8,7 @@
   </p>
 </div>
 
-<h1 class="text-center">What's behind this page</h1>
+<h1 class="text-center">What's behind this site</h1>
 <hr>
 
 <div class="row">
