@@ -42,14 +42,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="index" class="pull-left"><img src="/images/logo.png"></a>
+          <a onclick="ga('send', 'pageview', {'page': '/index','title': 'Home Page'});" href="index" class="pull-left"><img src="/images/logo.png"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index">Home</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="gallery">Gallery</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a onclick="ga('send', 'pageview', {'page': '/index','title': 'Home Page'});" href="index">Home</a></li>
+            <li><a onclick="ga('send', 'pageview', {'page': '/about','title': 'About Page'});" href="about">About</a></li>
+            <li><a onclick="ga('send', 'pageview', {'page': '/gallery','title': 'Gallery Page'});" href="gallery">Gallery</a></li>
+            <li><a onclick="ga('send', 'pageview', {'page': '/contact','title': 'Contact Page'});" href="contact">Contact</a></li>
           </ul>
         </div>
       </div>
