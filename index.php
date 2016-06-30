@@ -42,7 +42,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a onclick="ga('send', 'pageview', {'page': '/index','title': 'Home Page'});" href="index" class="pull-left"><img src="/images/logo.png"></a>
+          <a onclick="ga('send', 'pageview', {'page': '/index','title': 'Home Page'});" href="index" class="pull-left"><img src="/images/logo.png" alt="Ajax Logo"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
